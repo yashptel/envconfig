@@ -2,7 +2,15 @@
 
 [![Build Status](https://travis-ci.org/kelseyhightower/envconfig.svg)](https://travis-ci.org/kelseyhightower/envconfig)
 
-```Go
+## Installation
+Using envconfig is easy. First, use `go get` to install the latest version
+of the library.
+
+    go get github.com/kelseyhightower/envconfig
+
+Next, include envconfig in your application:
+
+```go
 import "github.com/kelseyhightower/envconfig"
 ```
 
